@@ -152,7 +152,7 @@ try:
         recognizer, scaler = train_and_save_model()
 
     # Step 3: Load Probe Image and Predict
-    PROBE_IMAGE = "elonornot.png"
+    PROBE_IMAGE = "elon.png"
     print(f"\nStep 3: Processing probe image '{PROBE_IMAGE}'...")
     probe_img = cv2.imread(PROBE_IMAGE)
     if probe_img is None:
