@@ -48,3 +48,11 @@ After training, the model uses a **probability-based matching rule** for identif
 -   When a new face is presented, the SVM calculates the probability  ($\text{P}(\text{Match})$ that the face belongs to the target person.
 
 -   The face is labeled **"MATCH"** only if this probability exceeds the defined `MATCH_THRESHOLD` (e.g., $0.60$).
+
+# Req
+
+```bash
+res10_300x300_ssd_iter_140000.caffemodel
+nn4.small2.v1.t7
+deploy.prototxt
+```
